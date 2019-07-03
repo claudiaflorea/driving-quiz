@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/study_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E5E5"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+        <TextView android:id="@+id/studyTitle"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAlignment="center"
+                  android:text="@string/practiceTheory"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginBottom="20dp"
+                  android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_chapter1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter1"/>
+
+
+        <Button
+            android:id="@+id/btn_chapter2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter2"/>
+
+        <Button
+            android:id="@+id/btn_chapter3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter3"/>
+
+        <Button
+            android:id="@+id/btn_chapter4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter4"/>
+
+        <Button
+            android:id="@+id/btn_chapter5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter5"/>
+
+        <Button
+            android:id="@+id/btn_chapter6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter6"/>
+
+        <Button
+            android:id="@+id/btn_chapter7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter7"/>
+
+        <Button
+            android:id="@+id/btn_chapter8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter8"/>
+
+
+        <Button
+            android:id="@+id/btn_chapter9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter9"/>
+
+        <Button
+            android:id="@+id/btn_chapter10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chapter10"/>
+
+        <TextView
+            android:id="@+id/chapter1_theory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="There are minimum standards set by law for the condition of your vehicle. You must know these standards and make sure your vehicle complies with the law. This section sets out the basic information you need to know. For further information on the testing of your vehicle please see www.rsa.ie.      As a driver, you must make sure that your vehicle is in good working order. You must ensure that the steering, brakes, front and rear lamps, indicators, reflectors, rear view mirrors, safety belts, speedometer, tyres, windscreen wipers, horn and silencer are checked regularly.If you are the owner of an electric vehicle, ensure that you are familiar with the charging procedure for your vehicle and also the safe operation of charging points. As an owner of a commercial vehicle, you must put in place a system for the regular inspection and on-going maintenance of your vehicle and ensure it has a valid Certificate of Road worthiness. This involves implementing the following measures: Section 4: Vehicle safetyThere are minimum standards set by law for the condition of your vehicle. You must know these standards and make sure your vehicle complies with the law. This section sets out the basic information you need to know. For further information on the testing of your vehicle please see www.rsa.ie.As a driver, you must make sure that your vehicle is in good working order. You must ensure that the steering, brakes, front and rear lamps, indicators, reflectors, rear view mirrors, safety belts, speedometer, tyres, windscreen wipers, horn and silencer are checked regularly.
+            If you are the owner of an electric vehicle, ensure that you are familiar with the charging procedure for your vehicle and also the safe operation of charging points.As an owner of a commercial vehicle, you must put in place a system for the regular inspection and on-going maintenance of your vehicle and ensure it has a valid Certificate of Road worthiness. This involves implementing the following measures:  deciding how often a vehicle is to be inspected,taking into account the age, mileage and condition of the vehicle;  ensuring a daily walk-around check of the vehicle is performed before it is driven in a public place, which involves the inspection of both the inside and outside of the vehicle as well as
+              examination of various items such as the mirrors, seatbelts, tyres, exhaust, and so on; keeping records of all inspections, maintenance and repairs of the vehicle."
+            />
+
+        <RelativeLayout
+            android:id="@+id/chapter2_theory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtSigns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You must know what traffic signs and road markings mean before you attempt to drive on a public road. This section focuses on the signs that you as a driver will come across most often. Sections 21 to 25 covers a range of the most important signs currently used on Irish roads. You must know and understand these signs and respond correctly when you see them on the road. Traffic signs and roadway markings
+               are divided into three broad categories:  Regulatory,  Warning, and  Information."/>
+
+            <ImageView
+                android:id="@+id/no_u_turn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_u_turn"
+                android:contentDescription="NO U TURN"
+                android:layout_below="@id/txtSigns"
+                            />
+            <ImageView
+                android:id="@+id/no_left_turn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_left_turn"
+                android:contentDescription="NO LEFT TURN"
+                android:layout_below="@id/txtSigns"
+                android:layout_toRightOf="@id/no_u_turn"
+                />
+            <ImageView
+                android:id="@+id/no_right_turn"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_right_turn"
+                android:contentDescription="NO RIGHT TURN"
+                android:layout_below="@id/txtSigns"
+                android:layout_toRightOf="@id/no_left_turn"
+                />
+            <ImageView
+                android:id="@+id/no_trucks"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_trucks"
+                android:layout_below="@id/no_u_turn"
+                />
+            <ImageView
+                android:id="@+id/no_parking"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_parking_sign"
+                android:contentDescription="NO PARKING"
+                android:layout_below="@id/no_left_turn"
+                android:layout_toRightOf="@id/no_trucks"
+                />
+            <ImageView
+                android:id="@+id/no_pedestrians"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_parking"
+                android:layout_below="@id/no_right_turn"
+                android:layout_toRightOf="@id/no_parking"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/no_pedestrians"
+                android:text="Road markings guide and warn drivers as well as regulate traffic. Markings may be red, blue, yellow or white. They may be used alone or in combinations. Each has a different meaning. Read the Signs, Signals and Markings section to learn about traffic control devices, road signs, signals at the intersections, road markings and right-of-way laws. This basic information will be the first step on the way to excellent driving"/>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/chapter3_theory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtChapter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This section builds on the previous section, which covers
+                traffic signs and road markings.This section covers two general forms of traffic signals:
+                traffic lights, which direct the flow of traffic, and  signals given by motorists and
+                cyclists to indicate their intent. "/>
+            <ImageView
+                android:id="@+id/traffic-lights"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="traffic lights"
+                android:layout_centerInParent="true"
+                android:src="@drawable/traffic_lights"
+                android:layout_below="@id/txtChapter3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/traffic-lights"
+                android:text="Traffic lights were first introduced to London in 1868. Traffic lights use of the sequence red, yellow/amber, and green are used to give the right of way to road users and pedestrians.
+
+Traffic light sequence:
+
+    Green light illumination allows traffic to proceed in the direction indicated.
+    Orange/yellow light illumination, prepare to stop before line if safe to do so.
+    Red light illumination prohibits any traffic from proceeding.
+"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/chapter4_theory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/speed_img"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:src="@drawable/speed_limit"
+                android:contentDescription="Speed limit"/>
+            <TextView
+                android:id="@+id/speed_txt"
+                android:layout_below="@id/speed_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A vehicle must not be driven at a speed exceeding that which will enable its driver to bring it to a halt within a distance the driver can see to be clear.This section describes the rules for keeping pace in traffic and the speed limits that apply on different types of road and to different vehicles.As a driver, you must always be aware of your speed and judge the appropriate speed for your vehicle, taking into account:  driving conditions;  other users of the road;  current weather conditions;  all possible hazards; and  speed limits.Driving conditions relate to the volume of traffic around you and the quality of the road.Other users of the road include motorcyclists, cyclists, pedestrians, school children, animals and all others you, as a driver, should expect to see on the road.Possible hazards include anything you can see that could cause an emergency, such as oncoming traffic if you are turning onto a major road. They also include anything you cannot yet see and anything you can reasonably expect to happen, such as a pedestrian walking onto the road in front of you, a child running onto the road between parked cars, or animals on the roadway. It includes your own physical and mental state while driving (for example whether you are stressed or tired) and the condition of your vehicle."/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter5_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This section outlines the correct way to approach and drive at junctions and roundabouts."/>
+        <ImageView
+            android:id="@+id/stop_img"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:contentDescription="Junctions"
+            android:src="@drawable/junction"
+            android:layout_below="@id/txt1"/>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you see a ‘Stop’ sign (shown below), you must stop at the sign or at the stop line on the road, if provided, even if there is no traffic on the road you would like to enter"
+            android:layout_below="@id/stop_img"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you see a ‘Yield’ sign or yield line (shown below), you must slow down, but you do not have to stop completely unless you need to wait for any oncoming traffic to pass"
+            android:layout_below="@id/txt2"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:contentDescription="Yeld"
+            android:src="@drawable/yeld"
+            android:layout_below="@id/txt3"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter6_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_parking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/parking_img"
+            android:text="How to make sure your vehicle is parked safelyMake sure you do not interfere with normal traffic flow and that your vehicle does not disturb, block or endanger other road users."/>
+        <ImageView
+            android:id="@+id/parking_img"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:contentDescription="parking"
+            android:src="@drawable/parking"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter7_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/motor_img"
+            android:layout_width="350dp"
+            android:layout_height="800dp"
+            android:contentDescription="motorways"
+            android:src="@drawable/motorways"
+            />
+        <TextView
+            android:id="@+id/txt_motorways"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/motor_img"
+            android:text="Motorways are roads that help reduce journey times by separating traffic and removing road junctions. They are probably the safest way of moving large volumes of traffic, mainly because they remove the risk of head-on collision. However, compared with other types of road, they carry a greater risk of pile-ups.This section covers the rules on who can drive on a motorway, the meaning of motorway signs, how to overtake safely and how to join and leave a motorway safely.See section 25 for a list of common signs you will see on a motorway"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter8_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/penalty_img"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:contentDescription="penalty points"
+            android:src="@drawable/penalty"/>
+        <TextView
+            android:id="@+id/txt_penalty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/penalty_img"
+            android:text="Encouraging road users to behave well is important, and Ireland has adopted a system of penalty points to support this change. This system is a key part of road safety policy in this country, and is designed to save lives.If you break the law, there’s a price to pay. The system will record your failure and the penalty on your driver licence record. For minor offences, the penalty is a sum of money, a fixed charge, and points that attach to your licence record: penalty points. For more serious offences you may be brought to court. The system applies to both full licence and learner permit holders.If you break the law and are caught, you will be fined and you will build up penalty points."/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter9_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/reg1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="Regulatory signs"
+            android:src="@drawable/regulatory1"/>
+        <ImageView
+        android:id="@+id/reg2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="Regulatory signs"
+        android:layout_below="@id/reg1"
+        android:src="@drawable/regulatory2"/>
+        <ImageView
+            android:id="@+id/reg3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="Regulatory signs"
+            android:layout_below="@id/reg2"
+            android:src="@drawable/regulatory3"/>
+        <TextView
+            android:id="@+id/txt_regulatory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/reg3"
+            android:text="This section includes the signs that show a road regulation is in place. These must be obeyed.Regulatory signs show the course a driver must follow and an action they are required to take or forbidden to take. They are usually circular and have a red border and black symbols or letters on a white background. Mandatory regulatory signs that indicate the direction traffic must take at junctions are blue and white."/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter10_theory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/accident_img"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:contentDescription="Accident"
+            android:src="@drawable/accident"/>
+        <TextView
+            android:id="@+id/txt_accident"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/accident_img"
+            android:text="This section covers what you must do if you have been involved in an accident, whether with another vehicle, another user of the road or with an object along the road. It also outlines what to do if you come across an accident"/>
+        <TextView
+            android:id="@+id/txt_accident2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txt_accident"
+            android:text="What drivers must do at an accident or in an emergency  If you are involved in an accident, you must stop your vehicle and remain at the scene for a reasonable time. If anyone is injured or appears to need assistance, the driver of the vehicle must offer assistance. If vehicles are blocking the roadway or posing a danger to other road users, the roadway should be marked and the vehicle should then be removed as soon as possible.  If you are asked by a Garda, you must give your name and address, the address where the vehicle is kept, the name and address of the vehicle owner, the vehicle’s registration number and evidence of insurance, such as the name of your insurance company or a disc or motor insurance certificate. If there is no Garda at the scene, you must give this information to any person involved in the crash or, if requested, to an independent witness.  If you or another person is injured and there is no Garda at the scene, the accident must be reported to the nearest Garda station."/>
+
+    </RelativeLayout>
+
+</LinearLayout>

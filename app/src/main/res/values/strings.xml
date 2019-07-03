@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Driving Theoretical Test Practice</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Practice</string>
+    <string name="title_notifications">Study</string>
+    <string name="intro">Driving Theoretical Test Practice</string>
+    <string name="practiceTheory">Driving Theory by Chapters</string>
+    <string name="chapter1">Vehicle safety</string>
+    <string name="chapter2">Traffic signs and road markings</string>
+    <string name="chapter3">Traffic lights and signals</string>
+    <string name="chapter4">Speed limit</string>
+    <string name="chapter5">Junctions and roundabouts</string>
+    <string name="chapter6">Parking</string>
+    <string name="chapter7">Motorways and tunnels</string>
+    <string name="chapter8">Penalty points, fixed charges and driving bans</string>
+    <string name="chapter9">Regulatory traffic signs </string>
+    <string name="chapter10">Correct behaviour at the scene of an accident</string>
+</resources>
